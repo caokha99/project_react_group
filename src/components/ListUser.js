@@ -25,10 +25,10 @@ const ListUser = () => {
         },
         {
             id: 3,
-            username: 'nguyenvanc',
+            username: 'nguyenvand',
             firstName: 'Nguyen',
-            lastName: 'Van C',
-            email: 'nvc@gmail.com',
+            lastName: 'Van D',
+            email: 'nvD@gmail.com',
             role: 'User',
             status: 'Active',
             address: 'Can Tho',
