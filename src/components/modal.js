@@ -47,7 +47,7 @@ function MyVerticallyCenteredModal(props) {
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridState">
-              <Form.Label>status</Form.Label>
+              <Form.Label>Status</Form.Label>
               <Form.Select defaultValue="Choose...">
                 <option>Active</option>
                 <option>...</option>
@@ -69,6 +69,7 @@ function MyVerticallyCenteredModal(props) {
               </Form.Select>
             </Form.Group>
             <Form.Group as={Col} controlId="formGridCity">
+              <Form.Label>Number </Form.Label>
               <Form.Control />
             </Form.Group>
           </Row>
@@ -89,7 +90,7 @@ function MyVerticallyCenteredModal(props) {
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridState">
-              <Form.Label>district</Form.Label>
+              <Form.Label>District</Form.Label>
               <Form.Select defaultValue="Choose...">
                 <option>Choose...</option>
                 <option>...</option>
@@ -110,7 +111,7 @@ function MyVerticallyCenteredModal(props) {
 
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridState">
-              <Form.Label>Phone</Form.Label>
+              <Form.Label>Note</Form.Label>
               <Form.Control as="textarea" placeholder="Leave a comment here" />
             </Form.Group>
           </Row>
